@@ -4,7 +4,6 @@ import websockets
 USERS = {}
 ROOMS = {}
 R = {}
-DATA_FILENAME = "chat_data.json"
 
 async def addUser(websocket, user_name):
     USERS[websocket] = user_name
